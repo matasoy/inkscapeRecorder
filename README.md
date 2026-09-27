@@ -16,6 +16,8 @@
 
 **Inkscape Recorder** automatically captures your vector illustration process as you work in [Inkscape](https://inkscape.org/), compiling every change into a high-quality, time-lapse MP4 video. 
 
+https://github.com/user-attachments/assets/28432973-afac-4ad2-a4e6-d459b241df1c
+
 Unlike conventional screen recorders, **Inkscape Recorder runs completely in the background**:
 - It **does not record your desktop** or screen coordinates.
 - It **never steals window focus** or interrupts your drawing flow.
