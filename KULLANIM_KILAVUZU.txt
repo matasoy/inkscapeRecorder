@@ -1,0 +1,100 @@
+================================================================================
+           INKSCAPE RECORDER - ADIM ADIM ÖĞRENCİ KULLANIM KILAVUZU
+================================================================================
+
+Bu yazılım, Inkscape üzerinde yaptığınız vektör çizim çalışmalarının çizim 
+aşamalarını otomatik olarak arka planda kaydedip hızlandırılmış (time-lapse) 
+bir MP4 videosu haline getiren yardımcı bir araçtır.
+
+Hiçbir kurulum, yönetici şifresi veya ek program yüklemesi gerektirmez!
+
+--------------------------------------------------------------------------------
+1. UYGULAMAYI BAŞLATMA
+--------------------------------------------------------------------------------
+1. Dağıtılan klasörün (veya ZIP'ten çıkardığınız klasörün) içindeki:
+   --> "Baslat.vbs" (veya "Baslat.bat") dosyasına çift tıklayın.
+2. Uygulama siyah bir komut penceresi açmadan, sessizce açılacaktır.
+
+NOT: Antivirüs veya Windows SmartScreen engellerine takılmaz, güvenle açabilirsiniz.
+
+--------------------------------------------------------------------------------
+2. ADIM ADIM ÇALIŞMA VE VİDEO KAYDETME REHBERİ
+--------------------------------------------------------------------------------
+
+[ADIM 1] INKSCAPE'İ AÇIN VE ÇALIŞMANIZI KAYDEDİN:
+  - Inkscape programını açın ve yeni bir belge başlatın.
+  - ÖNEMLİ: Çizime başlamadan önce belgenizi klavyeden "Ctrl + S" tuşlarına 
+    basarak bilgisayarınızda istediğiniz bir yere (örn: Masaüstü) ".svg" 
+    olarak kaydedin. (Örn: "projem.svg")
+
+[ADIM 2] INKSCAPE RECORDER'I AYARLAYIN:
+  - Inkscape Recorder programına gelin.
+  - "Inkscape Penceresi" kısmında açık olan Inkscape dosyanızın adı görünmelidir.
+    Eğer görünmüyorsa yanındaki "🔄 Yenile" butonuna tıklayın.
+  - "Kayıt Aralığı": Varsayılan olarak 30 saniye önerilir. İsteğe göre 5s, 
+    30s, 1dk butonlarıyla çekim sıklığını belirleyebilirsiniz.
+  - "Çıktı Klasörü": Otomatik olarak SVG dosyanızın bulunduğu yerde 
+    "dosyaadı_recorder" klasörü oluşturulur (örn: Masaüstünde "projem_recorder"). 
+    Hem ekran resimleri hem de MP4 videosu burada toplanır. İsterseniz 
+    "Seç" butonuna basarak elle başka bir klasör de belirleyebilirsiniz.
+
+[ADIM 3] KAYDI BAŞLATIN:
+  - Yeşil renkli "▶ KAYDI BAŞLAT" butonuna tıklayın.
+  - Buton kırmızı renkli "⏹ KAYDEDİYORUM..." durumuna geçer.
+  - Butonun altındaki bilgi çubuğundan çekilen kare sayısını (Kare), toplam 
+    çalışma sürenizi (Süre) ve bir sonraki karenin ne zaman çekileceğini 
+    (Kalan) anlık olarak görebilirsiniz.
+
+[ADIM 4] INKSCAPE'TE ÇİZİMİNİZİ YAPIN:
+  - Şimdi Inkscape'e dönüp çiziminizi dilediğiniz gibi yapabilirsiniz.
+  - Çizim yaparken aralıklarla "Ctrl + S" tuşlarına basarak belgenizi 
+    kaydedin. Her kaydettiğinizde veya belirlediğiniz süre dolduğunda program 
+    arkada otomatik olarak çiziminizin bir resmini (frame) çeker.
+  - DİKKAT: Inkscape Recorder çizim yaparken veya web'de gezinirken sizi asla 
+    bölmez; ekrana aniden odaklanmaz, pencereleri öne fırlatmaz, arka planda 
+    sessizce işini yapar.
+
+[ADIM 5] KAYDI DURDURUN:
+  - Çiziminiz bittiğinde veya mola vermek istediğinizde Inkscape Recorder'a 
+    gelip kırmızı "⏹ KAYDEDİYORUM..." butonuna basarak kaydı durdurun.
+  - Sağ taraftaki panelde çiziminizin aşama aşama çekilmiş tüm karelerini 
+    küçük resimler (thumbnail) halinde görebilirsiniz.
+
+[ADIM 6] MP4 VİDEONUZU OLUŞTURUN (EXPORT):
+  - Sol alttaki "Video Export" bölümüne gelin.
+  - FPS Ayarı: Videonuzun hızını belirler.
+    * 1.0 veya 2.0 FPS: Çizim aşamalarının tane tane net görünmesi için idealdir.
+    * 5.0 - 10.0 FPS: Çok fazla karesi olan uzun çalışmalar için ideal hızdır.
+  - Mor renkli "🎬 MP4 OLUŞTUR" butonuna basın.
+  - Program videonuzu hazırlayacaktır. 
+  - ÖZEL BAŞLIK: Videonuzun ilk 3 saniyesine otomatik olarak çalışmanızın 
+    son halinin önizlemesi ve projenizin adı şık bir başlık kartı olarak 
+    eklenecektir.
+  - İşlem bittiğinde "Videonuz Hazır!" mesajı gelir ve doğrudan "Videoyu Oynat" 
+    diyerek izleyebilirsiniz.
+
+--------------------------------------------------------------------------------
+3. SIKÇA SORULAN SORULAR (SSS) VE İPUÇLARI
+--------------------------------------------------------------------------------
+
+S: "Açık Inkscape penceresi bulunamadı" uyarısı alıyorum?
+C: Inkscape'in açık olduğundan ve dosyanızı en az bir kere "Ctrl + S" ile bir 
+   yere kaydettiğinizden emin olun. Ardından "🔄 Yenile" butonuna tıklayın.
+
+S: Çizim yaparken başka bir program açarsam (örneğin internet tarayıcısı) sorun olur mu?
+C: Kesinlikle olmaz! Inkscape Recorder doğrudan Inkscape'in kayıtlı SVG dosyasını 
+   arka planda işler. Ekran görüntüsü almak için Inkscape penceresini zorla öne 
+   getirmez, çalışmanızı engellemez.
+
+S: Hatalı veya istemediğim bir kare çekilirse ne yapmalıyım?
+C: Sağ taraftaki listede bulunan karenin üzerine fareyle gelin ve kırmızı "Sil" 
+   butonuna basarak o kareyi videodan çıkarabilirsiniz.
+
+S: Videoyu öğretmenime/arkadaşlarıma nasıl teslim edeceğim?
+C: "Çıktı Klasörü" olarak seçtiğiniz klasörün içinde 
+   "inkscape_recording_YYYYMMDD_HHMMSS.mp4" şeklinde kaydedilmiş video 
+   dosyasını doğrudan e-posta, Google Drive veya USB bellek ile teslim edebilirsiniz.
+
+================================================================================
+                      Başarılı ve Keyifli Çizimler Dileriz!
+================================================================================

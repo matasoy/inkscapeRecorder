@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Packaging & Build directories
+build/
+dist/
+dist_portable/
+*.egg-info/
+*.egg
+
+# PyInstaller temporary / cache files (keep .spec and app.manifest)
+!app.manifest
+
+# Binaries & large external dependencies
+ffmpeg.exe
+ffprobe.exe
+*.zip
+*.7z
+*.tar.gz
+
+# Generated recording output folders & temporary files
+*_recorder/
+*_frames/
+*.png.tmp
+*.log
+
+# User local settings & certificates
+.inkscape_recorder_settings.json
+*.pfx
+*.cer
+
+# IDE & OS files
+.vscode/
+.idea/
+*.suo
+*.user
+Thumbs.db
+[Dd]esktop.ini
+.DS_Store
