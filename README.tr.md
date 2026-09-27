@@ -15,6 +15,8 @@ Inkscape'te çalışırken canvas değişikliklerini otomatik olarak arka planda
 4. **Değişiklik Algılama & Temiz Snapshot:** Dosyada değişiklik yapılmışsa Inkscape CLI ile sayfa alanına göre beyaz arkaplanlı yüksek kaliteli PNG snapshot alınır.
 5. **MP4 Video Export:** FFmpeg ile tüm kareler 30 fps CFR olarak akıcı bir MP4 videoya dönüştürülür. İlk 3 saniyede projenin adı ve son karenin önizlemesiyle şık bir başlık kartı eklenir.
 
+https://github.com/user-attachments/assets/28432973-afac-4ad2-a4e6-d459b241df1c
+
 ---
 
 ## Kurulum ve Çalıştırma
